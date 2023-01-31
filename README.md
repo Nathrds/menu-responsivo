@@ -21,5 +21,4 @@ Projeto site com menu resposivo e Mobile First criado no capítulo 25 do curso d
 
 
 ## QR Code - Projeto Mobile First
-![frame](https://user-images.githubusercontent.com/106173624/215792788-2dd2352b-ffb1-4dfd-afc8-91c4852e7a7a.png)
-
+![frame](https://user-images.githubusercontent.com/106173624/215794089-15574f2c-2cd1-4537-9e50-82ae8c550205.png)
