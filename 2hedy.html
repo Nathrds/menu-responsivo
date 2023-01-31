@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hedy Lamar</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>Mulheres na Tecnologia</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+            </span>
+        <menu id="itens">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="1grace.html">Grace Hopper</a></li>
+                <li><a href="2hedy.html">Hedy Lamarr</a></li>
+                <li><a href="3kath.html">Katherine Johnson</a></li>
+                <li><a href="4nina.html">Nina Silva</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Hedy Lamarr 1914-2000</h2>
+
+            <p>A Hedy Lamarr é conhecida como a mãe do Wi-fi, era uma atriz e inventora em que teve as ideias iniciais do wifi. Desenvolveu uma técnica para comunicação de espectro espalhado, que deu origem à tecnologia sem fio. Juntamente com George Antheil, um compositor, Lamar desenvolveu o dispositivo de sinalização de rádio onde chamavam de “Sistema Secreto de Comunicações”, que mudava as frequências de rádio para que os nazistas alemães não pudesse decodificar as mensagens, ajudando a manter a segurança das comunicações militares  e dos telefones celulares.</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>❝ Conteúdo retirado do site <a href="https://www.mindtek.com.br/2022/03/mulheres-na-tecnologia/" target="_blank" rel="external">Mindtek</a> ❞</p>
+    </footer>
+
+    <script>
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
